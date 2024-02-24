@@ -47,6 +47,12 @@ const Detail = () => {
                             <p>
                                 {detailMovie.description_full.substr(0, 600)} ...
                             </p>
+                            <div className='download'>
+                                <strong>
+                                    <i className='xi-download'></i>Download Link
+                                </strong>
+                                <a href={detailMovie.url} target="_blank">{detailMovie.url}</a>
+                            </div>
                             <ul>
                                 {
                                     detailMovie.genres.map((it, idx) => <li key={idx}>{it}</li>)

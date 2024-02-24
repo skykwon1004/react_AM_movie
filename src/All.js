@@ -57,7 +57,7 @@ const All = () => {
                 </li>
 
                 {
-                    snum > total / pnum - cnum ? null : <li><button onClick={() => setSnum(snum + cnum)}>NEXT</button></li>
+                    snum > total / pnum - cnum ? null : <li><button onClick={() => setSnum(snum + cnum)}>Next</button></li>
                 }
             </ul>
 
