@@ -3,6 +3,7 @@
 .Header {
     line-height: 150px;
     background: radial-gradient($bg_color, $sbg_color);
+    padding: 0 40px;
 
     h1 {
         color: $w_color;
@@ -18,7 +19,7 @@
 
             strong {
                 display: block;
-                font-size: 35px;
+                font-size: 30px;
                 font-weight: 700;
                 margin: 0 0 5px 0;
                 color: $mc;
@@ -66,7 +67,7 @@
             border-radius: 50px;
             font-size: 15px;
             padding: 8px;
-            width: 350px;
+            width: 200px;
             height: 30px;
 
             input {
@@ -86,7 +87,7 @@
             color: #777;
 
             i {
-                font-size: 19px;
+                font-size: 16px;
             }
         }
 
@@ -222,7 +223,7 @@
 }
 
 .sec {
-    padding: 0 0 100px 0;
+    padding: 0 20px 100px 20px;
 
     h2 {
         font-size: 37px;
