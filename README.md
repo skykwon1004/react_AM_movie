@@ -1,4 +1,4 @@
-# 권은진 포트폴리오
+# About Movie
 - **`작업 기간 :`** 23.04 - 23.04
 - **`배포 링크 :`** [링크](https://skykwon1004.github.io/react_AM_movie/)
 - **`Stack` :** React, JavaScript, Axios, SCSS
